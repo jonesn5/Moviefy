@@ -8,8 +8,11 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <!-- Icon library for rating system-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- External CSS -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 
   <title>Moviefy</title>
   <!-- Website favicon -->
@@ -34,7 +37,6 @@
 
 <body>
 
-
   <!-- Boostrap navigation bar -->
   <nav class="navbar navbar-expand-md bg-light navbar-light">
     <!-- Brand -->
@@ -44,7 +46,6 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-
 
     <!-- Navbar links -->
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -83,9 +84,75 @@
         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Dolittle movie poster" src="https://m.media-amazon.com/images/M/MV5BMDNkODA5ZGQtODczOS00OTQxLThhMTItMjk0ZmNhMDM0YjNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg" data-holder-rendered="true" style="height: 420px; width: 100%; display: block;">
       </div>
     </div>
-
   </div>
 
+  <div class="ratingSystem">
+    <span class="heading">User Rating</span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <p>4.1 average based on 254 reviews.</p>
+    <hr style="border:3px solid #f1f1f1">
+
+    <div class="row">
+      <div class="side">
+        <div>5 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-3"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>15</div>
+      </div>
+      <div class="side">
+        <div>4 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-4"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>63</div>
+      </div>
+      <div class="side">
+        <div>3 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-5"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>150</div>
+      </div>
+      <div class="side">
+        <div>2 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-2"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>6</div>
+      </div>
+      <div class="side">
+        <div>1 star</div>
+      </div>
+      <div class="middle">
+        <div class="bar-container">
+          <div class="bar-1"></div>
+        </div>
+      </div>
+      <div class="side right">
+        <div>20</div>
+      </div>
+    </div>
 
   <div class="container mt-5">
     <div class="row d-flex justify-content-center">
@@ -134,6 +201,5 @@
     </div>
   </div>
   
-
 </body>
 </html>
