@@ -26,14 +26,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm rounded text-black bg-light p-5">
-         <form action="login.inc.php" method="post">
+         <form action="login.inc.php" method="POST">
           <div class="form-group">
             <label for="user">Username</label>
-            <input type="text" class="form-control" id="username" placeholder="Username" name="user">
+            <input type="text" class="form-control" id="user" placeholder="Username" name="user">
           </div>
           <div class="form-group">
             <label for="password">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+            <input type="password" class="form-control" id="pass" placeholder="Password" name="pass">
           </div>
           <button type="submit" class="btn btn-primary">Login</button>
         </form>
