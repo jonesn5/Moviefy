@@ -24,9 +24,9 @@
       </li>
       <li class="nav-item">
         <!-- Search bar -->
-        <form class="form-inline">
-          <input class="form-control " type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-primary" type="submit">Search</button>
+        <form class="form-inline" method="post" action="search.php">
+          <input class="form-control " type="text" name="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit" >Search</button>
         </form>
       </li>
     </ul>
