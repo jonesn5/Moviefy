@@ -24,7 +24,7 @@
       </li>
       <li class="nav-item">
         <!-- Search bar -->
-        <form class="form-inline" method="post" action="search.php">
+        <form class="form-inline" method="post" action="../Functions/search.php">
           <input class="form-control " type="text" name="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-primary" type="submit" >Search</button>
         </form>
@@ -35,7 +35,7 @@
     <button id="buttonToggleColors" class="btn btn-primary">Dark Mode</button>
     
     <!-- sign in button -->
-    <a href="index.php?logout='1'"> <button class="btn btn-outline-success" type="submit">Logout</button> </a>
+    <a href="../index.php?logout='1'"> <button class="btn btn-outline-success" type="submit">Logout</button> </a>
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['username'])) : ?>
       <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
