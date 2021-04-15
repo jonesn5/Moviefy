@@ -2,11 +2,11 @@
 echo NicksBatchFile
 
 mkdir 	XAMPP
-mkdir 	testingfile1
+mkdir 	moveify
 
 start 	"" 	https://www.apachefriends.org/xampp-files/8.0.3/xampp-windows-x64-8.0.3-0-VS16-installer.exe
 
-cd 	testingfile1
+cd 	moveify
 
 curl 	-o 	index.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/index.php
 curl 	-o 	header.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/header.php
