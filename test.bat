@@ -1,8 +1,6 @@
-
 echo Installation Process
 
 mkdir 	Moviefy
-mkdir   XAMPP
 
 start 	"" 	https://www.apachefriends.org/xampp-files/8.0.3/xampp-windows-x64-8.0.3-0-VS16-installer.exe
 
@@ -27,9 +25,19 @@ curl 	-o 	login.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/logi
 
 cd	..
 
+mkdir	Movies
+cd	Movies
+
+curl	-o	blackwidow-2020.php	https://raw.githubusercontent.com/jonesn5/Moviefy/main/Movies/blackwidow-2020.php
+curl	-o	dolittle-2020.php	https://raw.githubusercontent.com/jonesn5/Moviefy/main/Movies/dolittle-2020.php
+curl	-o	us-2019.php		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Movies/us-2019.php
+
+cd..
+
 start README.md
 
 echo done
+
 
 
 
