@@ -1,13 +1,13 @@
 
-echo NicksBatchFile
+echo Installation Process
 
-mkdir 	XAMPP
-mkdir 	moveify
+mkdir 	Moveify
 
 start 	"" 	https://www.apachefriends.org/xampp-files/8.0.3/xampp-windows-x64-8.0.3-0-VS16-installer.exe
 
-cd 	moveify
+cd 	Moveify
 
+curl  -o  README.md  https://raw.githubusercontent.com/jonesn5/Moviefy/main/README.md
 curl 	-o 	index.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/index.php
 curl 	-o 	header.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/header.php
 curl 	-o 	login.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/login.php
@@ -16,6 +16,7 @@ curl 	-o 	about.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/abou
 curl 	-o 	register.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/register.php
 curl 	-o 	search.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/search.php
 curl 	-o 	server.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/server.php
+curl  -o  genre.php  https://raw.githubusercontent.com/jonesn5/Moviefy/main/genre.php
 
 echo done
 
