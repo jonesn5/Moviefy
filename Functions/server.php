@@ -94,7 +94,7 @@ if (isset($_POST['search'])) {
 
   if ($result->num_rows > 0){
     while($row = $result->fetch_assoc() ){
-      echo $row["movie"]."  ".$row["director"]."<br>";
+      echo ' <a href="../Movies/' . $row["pageID"] . '.php"><h1>'. $row["movie"]."  ".$row["director"]."<br></h1>".'</a> ';
     }
   } else {
     echo "0 records";

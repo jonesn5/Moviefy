@@ -4,7 +4,7 @@
 	{
 		public function testUserName()
     	{
-    		require 'signUp.php';
+    		require 'register.php';
 
     		$user = new User;
     		$user->userName = "root";
@@ -14,7 +14,7 @@
 
     	public function testValidUserName()
     	{
-    		require 'signUp.php';
+    		require 'register.php';
 
     		$user = new User;
     		$user->userName = "root";
@@ -24,7 +24,7 @@
 
     	public function testPassword()
     	{
-    		require 'signUp.php';
+    		require 'register.php';
 
     		$user = new User;
     		$user->password = "password";
@@ -32,21 +32,16 @@
     		$this->assertTrue($user->checkValidPassword());
     	}
 
-    	public function testValidPassword()
-    	{
-
-    	}
-
     	public function testEmptyByDefault(){
 
-            require 'signUp.php';
+            require 'register.php';
             $user = new User;
 
             $this->assertEquals('', $user->getUserName());
         }
 
         public function testIsEmpty(){
-            require 'signUp.php';
+            require 'register.php';
 
             $user = new User;
 
@@ -55,7 +50,7 @@
         }
 
         public function testIsNotEmpty(){
-            require 'signUp.php';
+            require 'register.php';
 
             $user = new User;
             $user->userName = "root";
