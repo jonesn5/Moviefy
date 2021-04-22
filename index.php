@@ -100,6 +100,10 @@
     <?php  if (isset($_SESSION['username'])) : ?>
       <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
     <?php endif ?>
+    <!-- User is admin -->
+    <?php  if ($admin): ?>
+      <p>&nbsp;&nbsp;Admin</p>
+    <?php endif ?>
   </div>
 </nav>
     
