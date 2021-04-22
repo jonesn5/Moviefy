@@ -2,6 +2,7 @@
 echo Installation Process
 
 mkdir 	Moviefy
+mkdir   XAMPP
 
 start 	"" 	https://www.apachefriends.org/xampp-files/8.0.3/xampp-windows-x64-8.0.3-0-VS16-installer.exe
 
