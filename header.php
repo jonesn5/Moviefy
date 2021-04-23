@@ -23,7 +23,7 @@
         <a class="nav-link" href="../about.php">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../about.php">FAQ</a>
+        <a class="nav-link" href="../faqs.php">FAQs</a>
       </li>
       <li class="nav-item">
         <!-- Search bar -->
