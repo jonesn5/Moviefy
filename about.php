@@ -73,6 +73,9 @@
         <a class="nav-link" href="about.php">About</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="faqs.php">FAQs</a>
+      </li>
+      <li class="nav-item">
         <!-- Search bar -->
         <form class="form-inline" method="post" action="../Functions/search.php">
           <input class="form-control " type="text" name="search" placeholder="Search" aria-label="Search">
