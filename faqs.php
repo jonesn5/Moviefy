@@ -25,15 +25,6 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
-  <script>
-    //Dark mode 
-    $(document).ready(function () {
-      $("#buttonToggleColors").click(function () {
-        $('.navbar').toggleClass("navbar-light navbar-dark");
-        $('.navbar').toggleClass("bg-light bg-dark");
-      });
-    });
-  </script>
 
     <!-- Internal CSS for FAQs-page text. -->
     <style>
@@ -89,8 +80,6 @@
       </li>
     </ul>
 
-    <!-- Toggle dark mode -->
-    <button id="buttonToggleColors" class="btn btn-primary">Dark Mode</button>
     
     <!-- sign in button -->
     <a href="../index.php?logout='1'"> <button class="btn btn-outline-success" type="submit">Logout</button> </a>

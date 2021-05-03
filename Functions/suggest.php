@@ -40,6 +40,11 @@
     include_once '../header.php';
   ?>
 
+   <form class="form-inline" method="post" action="suggest.php">
+          <input class="form-control " type="text" name="suggest" placeholder="suggest" aria-label="Suggest">
+          <button class="btn btn-outline-primary" type="submit">Submit</button>
+   </form>
+
 </body>
 
 </html>

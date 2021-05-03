@@ -88,10 +88,10 @@
   <h1 class="text-light">Welcome Admin</h1>
   <div class="text-light">
     <?php
-      echo "This user: $username is logged in as an Admin";
-    ?>
-  </div>
-  
+    echo "This user is logged in as an Admin";
+?>
+</div>
+
 
 
 </body>

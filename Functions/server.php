@@ -109,6 +109,16 @@ if (isset($_POST['search'])) {
   }
 }
 
+//Movie search
+if (isset($_POST['suggest'])) {
+  
+  $suggest = $_POST['suggest'];
+  $sql = "INSERT INTO suggestions VALUES ('$suggest');"; 
+  $result = $db->query($sql);
+
+  echo 'Movie suggested';
+}
+
 
 ?>
 
