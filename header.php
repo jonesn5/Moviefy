@@ -33,19 +33,6 @@
         </form>
       </li>
     </ul>
-
-    <!-- Toggle dark mode -->
-    <button id="buttonToggleColors" class="btn btn-primary">Dark Mode</button>
-    <script>
-    //Dark mode 
-    $(document).ready(function () {
-      $("#buttonToggleColors").click(function () {
-        $('.album').toggleClass("bg-white bg-dark");
-        $('.navbar-nav').toggleClass("navbar-light navbar-dark");
-        $('.navbar-nav').toggleClass("bg-light bg-dark");
-      });
-    });
-  </script>
     
     <!-- sign in button -->
     <a href="../index.php?logout='1'"> <button class="btn btn-outline-success" type="submit">Logout</button> </a>

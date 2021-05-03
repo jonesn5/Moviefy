@@ -44,17 +44,6 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
-  <script>
-    //Dark mode 
-    $(document).ready(function () {
-      $("#buttonToggleColors").click(function () {
-        $('.album').toggleClass("bg-white bg-dark");
-        $('.navbar').toggleClass("navbar-light navbar-dark");
-        $('.navbar').toggleClass("bg-light bg-dark");
-      });
-    });
-  </script>
-
 </head>
 
 <body>
@@ -94,8 +83,7 @@
       </li>
     </ul>
 
-    <!-- Toggle dark mode -->
-    <button id="buttonToggleColors" class="btn btn-primary">Dark Mode</button>
+   
     
     <!-- sign in button -->
     <a href="index.php?logout='1'"> <button class="btn btn-outline-success" type="submit">Logout</button> </a>
@@ -104,7 +92,7 @@
       <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
     <?php endif ?>
     <!-- User is admin -->
-    <?php  if ($admin): ?>
+    <?php  if ($logged_in_user['Admin']): ?>
       <p>&nbsp;&nbsp;Admin</p>
     <?php endif ?>
   </div>

@@ -76,9 +76,17 @@ if (isset($_POST['loginUser'])) {
     $query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
     $results = mysqli_query($db, $query);
     if (mysqli_num_rows($results) == 1) {
-      $_SESSION['username'] = $username;
-      $_SESSION['success'] = "You are now logged in";
-      header('location: ../index.php');
+      $logged_in_user = mysqli_fetch_assoc($results);
+
+      if ($logged_in_user['Admin']) {
+        $_SESSION['username'] = $username;
+        $_SESSION['success']  = "You are now logged in";
+        header('location: ../admin.php');     
+      }else{
+        $_SESSION['username'] = $username;
+        $_SESSION['success'] = "You are now logged in";
+        header('location: ../index.php');
+      }
     }else {
       array_push($errors, "Username or password does not exist");
     }
@@ -101,4 +109,6 @@ if (isset($_POST['search'])) {
   }
 }
 
+
 ?>
+
