@@ -109,7 +109,7 @@ if (isset($_POST['search'])) {
   }
 }
 
-//Movie search
+//Movie suggest
 if (isset($_POST['suggest'])) {
   
   $suggest = $_POST['suggest'];

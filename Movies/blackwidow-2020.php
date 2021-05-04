@@ -138,65 +138,41 @@
     </div>
 
     <div class="container mt-5">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-8">
-          <div class="headings d-flex justify-content-between align-items-center mb-3">
-            <input type="text" class="form-control" placeholder="Enter comment">
-            <button class="btn btn-outline-success" type="submit">Comment</button>
-          </div>
-          <div class="card p-3">
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="user d-flex flex-row align-items-center"> <span><small
-                    class="font-weight-bold text-primary">Sam Kuhbander</small> <small class="font-weight-bold">This
-                    movie looks fun</small></span> </div> <small>2 days ago</small>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8">
+                    <div class="headings d-flex justify-content-between align-items-center mb-3">
+                        <form class="form-inline" method="post" action="us-2019.php">
+                            <input type="text" class="form-control" placeholder="Enter comment" name="comment">
+                            <button class="btn btn-outline-success" type="submit">Comment</button>
+                        </form>
+                    </div>
+                    <div>
+                        <?php
+                        //Movie comment
+                        function getComments() {
+                            $db = mysqli_connect('localhost', 'root', '', 'database1');
+                            $sql = "SELECT * FROM comments WHERE pageID = 'blackwidow-2020';";
+                            $result = mysqli_query($db, $sql);
+                            if(mysqli_num_rows($result) > 0){
+                                while($row = mysqli_fetch_assoc($result)) {
+
+                                    ?>
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <?php echo $row['comment_user'] . " <br>  " . $row['comment']; ?>
+                                    </div>
+                                </div>
+                        <?php
+                            }
+                        }
+                    }
+                    getComments();
+                    ?>
+                </div>
             </div>
-            <div class="action d-flex justify-content-between mt-2 align-items-center">
-              <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span
-                  class="dots"></span> </div>
-              <div class="icons align-items-center"> <i class="fa fa-star text-warning"></i> <i
-                  class="fa fa-check-circle-o check-icon"></i> </div>
-            </div>
-          </div>
-          <div class="card p-3 mt-2">
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="user d-flex flex-row align-items-center"> <span><small
-                    class="font-weight-bold text-primary">Nick Jones</small> <small class="font-weight-bold">Can't wait
-                    to watch this</small></span> </div> <small>3 days ago</small>
-            </div>
-            <div class="action d-flex justify-content-between mt-2 align-items-center">
-              <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span
-                  class="dots"></span> </div>
-              <div class="icons align-items-center"> <i class="fa fa-check-circle-o check-icon text-primary"></i> </div>
-            </div>
-          </div>
-          <div class="card p-3 mt-2">
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="user d-flex flex-row align-items-center"> <span><small
-                    class="font-weight-bold text-primary">Sherveen Menon</small> <small class="font-weight-bold">I love
-                    this director </small></span> </div> <small>3 days ago</small>
-            </div>
-            <div class="action d-flex justify-content-between mt-2 align-items-center">
-              <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span
-                  class="dots"></span> </div>
-              <div class="icons align-items-center"> <i class="fa fa-user-plus text-muted"></i> <i
-                  class="fa fa-star-o text-muted"></i> <i class="fa fa-check-circle-o check-icon text-primary"></i>
-              </div>
-            </div>
-          </div>
-          <div class="card p-3 mt-2">
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="user d-flex flex-row align-items-center"> <span><small
-                    class="font-weight-bold text-primary">Karim Sammouri</small> <small class="font-weight-bold">This
-                    website is cool </small></span> </div> <small>3 days ago</small>
-            </div>
-            <div class="action d-flex justify-content-between mt-2 align-items-center">
-              <div class="reply px-4"> <small>Remove</small> <span class="dots"></span> <small>Reply</small> <span
-                  class="dots"></span> </div>
-              <div class="icons align-items-center"> <i class="fa fa-check-circle-o check-icon text-primary"></i> </div>
-            </div>
-          </div>
         </div>
-      </div>
+
+    
     </div>
 
 </body>
