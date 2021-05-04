@@ -57,104 +57,104 @@
 
     <?php
 
-            if (isset($_POST['rating'])) {
-                $sql = "SELECT AVG(rating) FROM ratings WHERE pageID = 'dolittle-2020';";
-                $result = $db->query($sql);
-                if ($result->num_rows > 0){
-                    while($row = $result->fetch_assoc() ){
-                       echo "<p> The average user rating from Moviefy " . $row['AVG(rating)'] . "</p>";
-                    }
-                }
-            }
+    if (isset($_POST['rating'])) {
+      $sql = "SELECT AVG(rating) FROM ratings WHERE pageID = 'dolittle-2020';";
+      $result = $db->query($sql);
+      if ($result->num_rows > 0){
+        while($row = $result->fetch_assoc() ){
+         echo "<p> The average user rating from Moviefy " . $row['AVG(rating)'] . "</p>";
+       }
+     }
+   }
 
-            ?>
+   ?>
 
-    <!-- Rating System-->
-      <p>Select a rating:</p>
+   <!-- Rating System-->
+   <p>Select a rating:</p>
 
-      <form class="form-inline" method="post" action="dolittle-2020.php">
-        <input type="hidden" name="pageID" value="dolittle-2020">
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio1" value="1">
-          <label class="form-check-label" for="inlineRadio1">1</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio2" value="2">
-          <label class="form-check-label" for="inlineRadio2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="3">
-          <label class="form-check-label" for="inlineRadio3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="4">
-          <label class="form-check-label" for="inlineRadio3">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="5">
-          <label class="form-check-label" for="inlineRadio3">5</label>
-        </div>
-        <button class="btn btn-outline-secondary" type="submit">Rate</button>
-      </form>
+   <form class="form-inline" method="post" action="dolittle-2020.php">
+    <input type="hidden" name="pageID" value="dolittle-2020">
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="rating" id="inlineRadio1" value="1">
+      <label class="form-check-label" for="inlineRadio1">1</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="rating" id="inlineRadio2" value="2">
+      <label class="form-check-label" for="inlineRadio2">2</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="3">
+      <label class="form-check-label" for="inlineRadio3">3</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="4">
+      <label class="form-check-label" for="inlineRadio3">4</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="5">
+      <label class="form-check-label" for="inlineRadio3">5</label>
+    </div>
+    <button class="btn btn-outline-secondary" type="submit">Rate</button>
+  </form>
 
-    <div class="container mt-5">
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-8">
-          <div class="headings d-flex justify-content-between align-items-center mb-3">
-            <form class="form-inline" method="post" action="dolittle-2020.php">
-              <input type="text" class="form-control" placeholder="Enter comment" name="comment">
-              <input type="hidden" name="pageID" value="dolittle-2020">
-              <button class="btn btn-outline-success" type="submit">Comment</button>
-            </form>
-          </div>
-          <div>
-            <?php
+  <div class="container mt-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-8">
+        <div class="headings d-flex justify-content-between align-items-center mb-3">
+          <form class="form-inline" method="post" action="dolittle-2020.php">
+            <input type="text" class="form-control" placeholder="Enter comment" name="comment">
+            <input type="hidden" name="pageID" value="dolittle-2020">
+            <button class="btn btn-outline-success" type="submit">Comment</button>
+          </form>
+        </div>
+        <div>
+          <?php
                         //Movie comment
 
-            function getComments() {
-              $db = mysqli_connect('localhost', 'root', '', 'database1');
-              $sql = "SELECT * FROM comments WHERE pageID = 'dolittle-2020';";
-              $result = mysqli_query($db, $sql);
-              if(mysqli_num_rows($result) > 0){
-                while($row = mysqli_fetch_assoc($result)) {
+          function getComments() {
+            $db = mysqli_connect('localhost', 'root', '', 'database1');
+            $sql = "SELECT * FROM comments WHERE pageID = 'dolittle-2020';";
+            $result = mysqli_query($db, $sql);
+            if(mysqli_num_rows($result) > 0){
+              while($row = mysqli_fetch_assoc($result)) {
 
-                  ?>
-                  <div class="card">
-                    <div class="card-body">
-                      <?php echo $row['comment_user'] . " <br>  " . $row['comment']; ?>
-                    </div>
+                ?>
+                <div class="card">
+                  <div class="card-body">
+                    <?php echo $row['comment_user'] . " <br>  " . $row['comment']; ?>
                   </div>
-                  <?php
-                }
-              }
-            }
-            getComments();
-
-                    //Movie Comment 
-            if (isset($_POST['comment'])) {
-
-              $comment = $_POST['comment'];
-              $pageID = $_POST['pageID'];
-              $username = $_SESSION['username'];
-
-              $sql = "INSERT INTO comments VALUES ('$username','$pageID','$comment');"; 
-              $result = mysqli_query($db, $sql);
-              ?>
-              <div class="card">
-                <div class="card-body">
-                  <?php echo $username . " <br>  " . $comment; ?>
                 </div>
-
                 <?php
               }
-              ?>
-            </div>
+            }
+          }
+          getComments();
+
+                    //Movie Comment 
+          if (isset($_POST['comment'])) {
+
+            $comment = $_POST['comment'];
+            $pageID = $_POST['pageID'];
+            $username = $_SESSION['username'];
+
+            $sql = "INSERT INTO comments VALUES ('$username','$pageID','$comment');"; 
+            $result = mysqli_query($db, $sql);
+            ?>
+            <div class="card">
+              <div class="card-body">
+                <?php echo $username . " <br>  " . $comment; ?>
+              </div>
+
+              <?php
+            }
+            ?>
           </div>
         </div>
-
-
-
       </div>
 
-    </body>
-    </html>
+
+
+    </div>
+
+  </body>
+  </html>
