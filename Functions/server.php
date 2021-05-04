@@ -119,6 +119,5 @@ if (isset($_POST['suggest'])) {
   echo 'Movie suggested';
 }
 
-
 ?>
 

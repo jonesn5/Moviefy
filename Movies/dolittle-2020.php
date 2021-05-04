@@ -1,3 +1,4 @@
+<?php include('../Functions/server.php') ?>
 <html lang="en">
 <head>
   <!-- Required meta tags -->
@@ -116,15 +117,16 @@
       <div class="row d-flex justify-content-center">
         <div class="col-md-8">
           <div class="headings d-flex justify-content-between align-items-center mb-3">
-            <form class="form-inline" method="post" action="us-2019.php">
+            <form class="form-inline" method="post" action="dolittle-2020.php">
               <input type="text" class="form-control" placeholder="Enter comment" name="comment">
+              <input type="hidden" name="pageID" value="dolittle-2020">
               <button class="btn btn-outline-success" type="submit">Comment</button>
             </form>
           </div>
           <div>
             <?php
                         //Movie comment
-
+            
             function getComments() {
               $db = mysqli_connect('localhost', 'root', '', 'database1');
               $sql = "SELECT * FROM comments WHERE pageID = 'dolittle-2020';";
@@ -143,14 +145,32 @@
               }
             }
             getComments();
-            ?>
+
+                    //Movie Comment 
+            if (isset($_POST['comment'])) {
+
+              $comment = $_POST['comment'];
+              $pageID = $_POST['pageID'];
+              $username = $_SESSION['username'];
+
+              $sql = "INSERT INTO comments VALUES ('$username','$pageID','$comment');"; 
+              $result = mysqli_query($db, $sql);
+              ?>
+              <div class="card">
+                <div class="card-body">
+                  <?php echo $username . " <br>  " . $comment; ?>
+                </div>
+
+                <?php
+              }
+              ?>
+            </div>
           </div>
         </div>
+
+
+
       </div>
 
-
-
-    </div>
-
-  </body>
-  </html>
+    </body>
+    </html>
