@@ -407,7 +407,7 @@
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
-                  <a href="Movies/us-2020.php"><button type="button"
+                  <a href="Movies/us-2019.php"><button type="button"
                       class="btn btn-sm btn-outline-secondary">View</button> </a>
                 </div>
                 <div class="rating">
