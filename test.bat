@@ -6,7 +6,7 @@ start 	"" 	https://www.apachefriends.org/xampp-files/8.0.3/xampp-windows-x64-8.0
 
 cd 	Moviefy
 
-curl	-o	README.md	https://raw.githubusercontent.com/jonesn5/Moviefy/main/README.md
+curl	-o	README.txt	https://raw.githubusercontent.com/jonesn5/Moviefy/main/README.txt
 curl 	-o 	index.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/index.php
 curl 	-o 	header.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/header.php
 curl 	-o 	style.css 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/style.css
@@ -34,7 +34,7 @@ curl	-o	us-2019.php		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Movi
 
 cd..
 
-start README.md
+start README.txt
 
 echo done
 
