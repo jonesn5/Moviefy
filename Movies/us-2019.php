@@ -77,89 +77,103 @@
             <p>4.1 average based on 254 reviews.</p>
             <hr style="border:3px solid #f1f1f1">
 
-            <!-- Rating System-->
-      <p>Select a rating:</p>
+            <?php
 
-      <form class="form-inline" method="post" action="us-2019.php">
-        <input type="hidden" name="pageID" value="us-2019">
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio1" value="1">
-          <label class="form-check-label" for="inlineRadio1">1</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio2" value="2">
-          <label class="form-check-label" for="inlineRadio2">2</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="3">
-          <label class="form-check-label" for="inlineRadio3">3</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="4">
-          <label class="form-check-label" for="inlineRadio3">4</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="5">
-          <label class="form-check-label" for="inlineRadio3">5</label>
-        </div>
-        <button class="btn btn-outline-secondary" type="submit">Rate</button>
+            if (isset($_POST['rating'])) {
+                $sql = "SELECT AVG(rating) FROM ratings WHERE pageID = 'us-2019';";
+                $result = $db->query($sql);
+                if ($result->num_rows > 0){
+                    while($row = $result->fetch_assoc() ){
+                     echo "<p> The average user rating from Moviefy " . $row['AVG(rating)'] . "</p>";
+                 }
+             }
+         }
+
+         ?>
+
+         <!-- Rating System-->
+         <p>Select a rating:</p>
+
+         <form class="form-inline" method="post" action="us-2019.php">
+            <input type="hidden" name="pageID" value="us-2019">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="rating" id="inlineRadio1" value="1">
+              <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="rating" id="inlineRadio2" value="2">
+              <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="3">
+              <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="4">
+              <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="5">
+              <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+          <button class="btn btn-outline-secondary" type="submit">Rate</button>
       </form>
 
-            <div class="container mt-5">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-8">
-                        <div class="headings d-flex justify-content-between align-items-center mb-3">
-                            <form class="form-inline" method="post" action="us-2019.php">
-                              <input class="form-control " type="text" name="comment" placeholder="Comment" aria-label="Comment">
-                              <input type="hidden" name="pageID" value="us-2019">
-                              <button class="btn btn-outline-primary" type="submit">Comment</button>
-                          </form>
-                      </div>
-                      <div>
-                        <?php
+      <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+                <div class="headings d-flex justify-content-between align-items-center mb-3">
+                    <form class="form-inline" method="post" action="us-2019.php">
+                      <input class="form-control " type="text" name="comment" placeholder="Comment" aria-label="Comment">
+                      <input type="hidden" name="pageID" value="us-2019">
+                      <button class="btn btn-outline-primary" type="submit">Comment</button>
+                  </form>
+              </div>
+              <div>
+                <?php
                         //Movie comment
-                        
-                        function getComments() {
-                            $db = mysqli_connect('localhost', 'root', '', 'database1');
-                            $sql = "SELECT * FROM comments WHERE pageID = 'us-2019';";
-                            $result = mysqli_query($db, $sql);
-                            if(mysqli_num_rows($result) > 0){
-                                while($row = mysqli_fetch_assoc($result)) {
+                
+                function getComments() {
+                    $db = mysqli_connect('localhost', 'root', '', 'database1');
+                    $sql = "SELECT * FROM comments WHERE pageID = 'us-2019';";
+                    $result = mysqli_query($db, $sql);
+                    if(mysqli_num_rows($result) > 0){
+                        while($row = mysqli_fetch_assoc($result)) {
 
-                                    ?>
-                                    <div class="card">
-                                      <div class="card-body">
-                                        <?php echo $row['comment_user'] . " <br>  " . $row['comment']; ?>
-                                    </div>
-                                </div>
-                                <?php
-                            }
-                        }
+                            ?>
+                            <div class="card">
+                              <div class="card-body">
+                                <?php echo $row['comment_user'] . " <br>  " . $row['comment']; ?>
+                            </div>
+                        </div>
+                        <?php
                     }
-                    getComments();
+                }
+            }
+            getComments();
 
                     //Movie Comment 
-                    if (isset($_POST['comment'])) {
+            if (isset($_POST['comment'])) {
 
-                      $comment = $_POST['comment'];
-                      $pageID = $_POST['pageID'];
-                      $username = $_SESSION['username'];
+              $comment = $_POST['comment'];
+              $pageID = $_POST['pageID'];
+              $username = $_SESSION['username'];
 
-                      $sql = "INSERT INTO comments VALUES ('$username','$pageID','$comment');"; 
-                      $result = mysqli_query($db, $sql);
-                      ?>
-                      <div class="card">
-                        <div class="card-body">
-                          <?php echo $username . " <br>  " . $comment; ?>
-                      </div>
-
-                      <?php
-                  }
-                  ?>
+              $sql = "INSERT INTO comments VALUES ('$username','$pageID','$comment');"; 
+              $result = mysqli_query($db, $sql);
+              ?>
+              <div class="card">
+                <div class="card-body">
+                  <?php echo $username . " <br>  " . $comment; ?>
               </div>
-          </div>
+
+              <?php
+          }
+          ?>
       </div>
   </div>
+</div>
+</div>
 
 </body>
 

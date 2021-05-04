@@ -119,7 +119,7 @@ if (isset($_POST['suggest'])) {
   echo 'Movie suggested';
 }
 
-//Movie Rating 
+//Input movie Rating 
 if (isset($_POST['rating'])) {
 
   $rating = $_POST['rating'];

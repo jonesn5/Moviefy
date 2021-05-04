@@ -55,6 +55,20 @@
     <p>4.1 average based on 254 reviews.</p>
     <hr style="border:3px solid #f1f1f1">
 
+    <?php
+
+            if (isset($_POST['rating'])) {
+                $sql = "SELECT AVG(rating) FROM ratings WHERE pageID = 'dolittle-2020';";
+                $result = $db->query($sql);
+                if ($result->num_rows > 0){
+                    while($row = $result->fetch_assoc() ){
+                       echo "<p> The average user rating from Moviefy " . $row['AVG(rating)'] . "</p>";
+                    }
+                }
+            }
+
+            ?>
+
     <!-- Rating System-->
       <p>Select a rating:</p>
 
