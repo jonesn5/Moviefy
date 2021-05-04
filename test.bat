@@ -6,7 +6,7 @@ start 	"" 	https://www.apachefriends.org/xampp-files/8.0.3/xampp-windows-x64-8.0
 
 cd 	Moviefy
 
-curl	-o	README.txt	https://raw.githubusercontent.com/jonesn5/Moviefy/main/README.txt
+curl	-o	README.txt	https://raw.githubusercontent.com/jonesn5/Moviefy/Build_Script/README.txt
 curl 	-o 	index.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/index.php
 curl 	-o 	header.php 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/header.php
 curl 	-o 	style.css 	https://raw.githubusercontent.com/jonesn5/Moviefy/main/style.css
