@@ -55,63 +55,33 @@
     <p>4.1 average based on 254 reviews.</p>
     <hr style="border:3px solid #f1f1f1">
 
-    <div class="row">
-      <div class="side">
-        <div>5 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-3"></div>
+    <!-- Rating System-->
+      <p>Select a rating:</p>
+
+      <form class="form-inline" method="post" action="dolittle-2020.php">
+        <input type="hidden" name="pageID" value="dolittle-2020">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="inlineRadio1" value="1">
+          <label class="form-check-label" for="inlineRadio1">1</label>
         </div>
-      </div>
-      <div class="side right">
-        <div>15</div>
-      </div>
-      <div class="side">
-        <div>4 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-4"></div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="inlineRadio2" value="2">
+          <label class="form-check-label" for="inlineRadio2">2</label>
         </div>
-      </div>
-      <div class="side right">
-        <div>63</div>
-      </div>
-      <div class="side">
-        <div>3 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-5"></div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="3">
+          <label class="form-check-label" for="inlineRadio3">3</label>
         </div>
-      </div>
-      <div class="side right">
-        <div>150</div>
-      </div>
-      <div class="side">
-        <div>2 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-2"></div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="4">
+          <label class="form-check-label" for="inlineRadio3">4</label>
         </div>
-      </div>
-      <div class="side right">
-        <div>6</div>
-      </div>
-      <div class="side">
-        <div>1 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-1"></div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="rating" id="inlineRadio3" value="5">
+          <label class="form-check-label" for="inlineRadio3">5</label>
         </div>
-      </div>
-      <div class="side right">
-        <div>20</div>
-      </div>
-    </div>
+        <button class="btn btn-outline-secondary" type="submit">Rate</button>
+      </form>
 
     <div class="container mt-5">
       <div class="row d-flex justify-content-center">
@@ -126,7 +96,7 @@
           <div>
             <?php
                         //Movie comment
-            
+
             function getComments() {
               $db = mysqli_connect('localhost', 'root', '', 'database1');
               $sql = "SELECT * FROM comments WHERE pageID = 'dolittle-2020';";

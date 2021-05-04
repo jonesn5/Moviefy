@@ -119,5 +119,15 @@ if (isset($_POST['suggest'])) {
   echo 'Movie suggested';
 }
 
+//Movie Rating 
+if (isset($_POST['rating'])) {
+
+  $rating = $_POST['rating'];
+  $pageID = $_POST['pageID'];
+  $sql = "INSERT INTO ratings VALUES ('$rating','$pageID');"; 
+  $result = $db->query($sql);
+
+}
+
 ?>
 
