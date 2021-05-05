@@ -138,7 +138,23 @@
                   ?>
                   <div class="card">
                     <div class="card-body">
-                      <?php echo $row['comment_user'] . " <br>  " . $row['comment']; ?>
+                      <?php echo "<p class='comments'>" . $row['comment_user'] . " <br>  " . $row['comment'] . "</p><br>"; 
+                      if(isAdmin()){
+                        $commentID = $row['comment'];
+                        ?>
+                        <form action="" id="$row['comment']" method="post">
+                          <input class="btn btn-outline-primary" type="submit" name="delete" value="Delete"/>
+                          <?php echo "<input type='hidden' name='pageID' value='$commentID'>"
+                          ?>
+                        </form>
+                        <?php 
+                        if (isset($_POST['delete'])) {
+                          $sql = "DELETE FROM comments WHERE pageID = 'stowaway-2021' AND comment = '" . $_POST['pageID'] . "'";
+                          $result = $db->query($sql);
+                          echo "<p>The comment has been delete successful </p>";
+                        }
+                      }
+                      ?>
                     </div>
                   </div>
                   <?php
@@ -156,15 +172,12 @@
 
               $sql = "INSERT INTO comments VALUES ('$username','$pageID','$comment');"; 
               $result = mysqli_query($db, $sql);
+              echo "<p> Comment added: $comment</p>"
               ?>
-              <div class="card">
-                <div class="card-body">
-                  <?php echo $username . " <br>  " . $comment; ?>
-                </div>
-
-                <?php
-              }
-              ?>
+            </div>
+            <?php
+          }
+          ?>
             </div>
           </div>
         </div>

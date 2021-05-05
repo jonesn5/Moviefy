@@ -77,19 +77,22 @@
     <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
     <?php endif ?>
     <!-- User is admin -->
-    <?php  if (!$Admin): ?>
     <p>&nbsp;&nbsp;Admin</p>
-    <?php endif ?>
   </div>
 </nav>
 
 <body style="background-color: black;">
 
   <h1 class="text-light">Welcome Admin</h1>
+  <h2 class="text-light">We currently have 15 movies in our database</h2>
   <div class="text-light">
     <?php
     echo "This user is logged in as an Admin";
-?>
+  ?>
+   <h2 class="text-light">Current Issues</h2>
+   <ul class="text-light">
+     <li>None</li>
+   </ul>
 </div>
 
 

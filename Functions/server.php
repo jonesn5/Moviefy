@@ -79,10 +79,12 @@ if (isset($_POST['loginUser'])) {
       $logged_in_user = mysqli_fetch_assoc($results);
 
       if ($logged_in_user['Admin']) {
+        $_SESSION['admin'] = 1; 
         $_SESSION['username'] = $username;
         $_SESSION['success']  = "You are now logged in";
         header('location: ../admin.php');     
       }else{
+        $_SESSION['admin'] = 0; 
         $_SESSION['username'] = $username;
         $_SESSION['success'] = "You are now logged in";
         header('location: ../index.php');
@@ -128,6 +130,14 @@ if (isset($_POST['rating'])) {
   $result = $db->query($sql);
 
 }
+
+//Checks if user is an admin
+function isAdmin(){
+  if($_SESSION['admin'] == 1){
+    return true;
+  }
+}
+
 
 ?>
 
