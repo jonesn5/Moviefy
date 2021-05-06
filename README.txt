@@ -20,7 +20,6 @@ When you run the script a browser window will open and automatically download an
 This file is the setup for the server that the project runs on. Run the installer and install the files into the XAMPP directory that was created. 
 ~ When running the installer.exe, you only need to specify which directory you would like to install XAMPP in (everything else you can hit NEXT)
 Move the Moviefy directory into the htdocs directory (Which is located within the XAMPP folder)
-~ You will need to also move the images folder inside the GenrePages folder to see all the movie posters
 Next run "xampp-control.exe" program which will open up the server control pannel. From there you need to start the Apache (1st option) server and the MySQL (2nd option) server.
 Then open your browser of choice and navigate to http://localhost/phpmyadmin
 Go to databases and type in database1 into the area that says: Database name. Then go to import and search for the file called database1.sql inside the Moviefy folder and click go.
@@ -62,6 +61,7 @@ When you are done using Moviefy you will want to logout of the platform. In orde
 
 References/Citations
 ----------------------
+“Black Widow.” IMDb, IMDb.com, www.imdb.com/title/tt3480822/plotsummary. 
 “Cherry.” IMDb, IMDb.com, 12 Mar. 2021, www.imdb.com/title/tt9130508/.
 “Dolittle.” IMDb, IMDb.com, 1 Jan. 2020, www.imdb.com/title/tt6673612/.
 “Greyhound.” IMDb, IMDb.com, 10 July 2020, www.imdb.com/title/tt6048922/.
