@@ -148,7 +148,7 @@
               src="https://m.media-amazon.com/images/M/MV5BMWYwMWQxMmUtNjU3MS00NjIwLTllYWMtNzcxYzRkMWYyYTkwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">A three-person crew on a mission to Mars faces an impossible choice when an unplanned passenger jeopardizes the lives of everyone on board.</p>
+              <p class="card-text">A three-person crew on a mission to Mars faces an impossible choice when an unplanned passenger jeopardizes the lives of everyone on board.("Stowaway")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -175,7 +175,7 @@
               src="https://m.media-amazon.com/images/M/MV5BYjRjYzAxYjAtMTQ0NC00YmJkLTk3MTctNDQ5OTQ4NWM4ZGEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">An artist relocates to the Hudson Valley and begins to suspect that her marriage has a sinister darkness, one that rivals her new home's history.</p>
+              <p class="card-text">An artist relocates to the Hudson Valley and begins to suspect that her marriage has a sinister darkness, one that rivals her new home's history.("Things Heard and Seen")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -206,7 +206,7 @@
               src="https://m.media-amazon.com/images/M/MV5BM2Y5ZWE2MTMtODE3ZC00NWQ4LWJkNzctNGY4Njg5NDY5MzNlXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_.jpg"
               data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text" name="test">Friends hiking the Appalachian Trail are confronted by 'The Foundation', a community of people who have lived in the mountains for hundreds of years.</p>
+              <p class="card-text" name="test">Friends hiking the Appalachian Trail are confronted by 'The Foundation', a community of people who have lived in the mountains for hundreds of years.("Wrong Turn")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -233,7 +233,7 @@
               src="https://m.media-amazon.com/images/M/MV5BY2ZlNWIxODMtN2YwZi00ZjNmLWIyN2UtZTFkYmZkNDQyNTAyXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">MMA fighter Cole Young seeks out Earth's greatest champions in order to stand against the enemies of Outworld in a high stakes battle for the universe.</p>
+              <p class="card-text">MMA fighter Cole Young seeks out Earth's greatest champions in order to stand against the enemies of Outworld in a high stakes battle for the universe.("Mortal Kombat")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -260,7 +260,7 @@
               src="https://m.media-amazon.com/images/M/MV5BMDNkODA5ZGQtODczOS00OTQxLThhMTItMjk0ZmNhMDM0YjNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">A physician who can talk to animals embarks on an adventure to find a legendary island with a young apprentice and a crew of strange pets.</p>
+              <p class="card-text">A physician who can talk to animals embarks on an adventure to find a legendary island with a young apprentice and a crew of strange pets.("Dolittle")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -291,7 +291,7 @@
               src="https://m.media-amazon.com/images/M/MV5BOTZkMzlkYmItZDAyNy00NmZhLWE3MWItMzQyNDhkYzcwMTFmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
               data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text" name="test">Cherry drifts from college dropout to army medic in Iraq - anchored only by his true love, Emily. But after returning from the war with PTSD, his life spirals into drugs and crime as he struggles to find his place in the world.</p>
+              <p class="card-text" name="test">Cherry drifts from college dropout to army medic in Iraq - anchored only by his true love, Emily. But after returning from the war with PTSD, his life spirals into drugs and crime as he struggles to find his place in the world.("Cherry")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -318,7 +318,7 @@
               src="https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.</p>
+              <p class="card-text">Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.("Tenet")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -345,7 +345,7 @@
               src="https://i.ytimg.com/vi/EVB21AxR1Hw/movieposter.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.</p>
+              <p class="card-text">After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.("Soul")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -376,7 +376,7 @@
               src="https://m.media-amazon.com/images/M/MV5BNjAyOTg1ODAtNDhiNS00OTczLWI1OGYtNTI1ZDg3ZDEwNDg1XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
               data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text" name="test">John Clark, a Navy SEAL, goes on a path to avenge his wife's murder only to find himself inside of a larger conspiracy.</p>
+              <p class="card-text" name="test">John Clark, a Navy SEAL, goes on a path to avenge his wife's murder only to find himself inside of a larger conspiracy.("Without Remorse")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -403,7 +403,7 @@
               src="https://m.media-amazon.com/images/M/MV5BZTliNWJhM2YtNDc1MC00YTk1LWE2MGYtZmE4M2Y5ODdlNzQzXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.</p>
+              <p class="card-text">A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.("Us")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -430,7 +430,7 @@
               src="https://m.media-amazon.com/images/M/MV5BMTdmYjU1NGUtYWQyNi00N2VlLWIzY2UtM2ZlM2M1ODdlNTdhXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">Several months after the U.S. entry into World War II, an inexperienced U.S. Navy commander must lead an Allied convoy being stalked by a German submarine wolf pack.</p>
+              <p class="card-text">Several months after the U.S. entry into World War II, an inexperienced U.S. Navy commander must lead an Allied convoy being stalked by a German submarine wolf pack.("Greyhound")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -461,7 +461,7 @@
               src="https://m.media-amazon.com/images/M/MV5BNTM5YWZiMzQtNDQxZS00ODI0LWJjNTQtZmQ3OWU3Njg4NWYyXkEyXkFqcGdeQXVyNzc4NTU3Njg@._V1_.jpg"
               data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text" name="test">Scooby and the gang face their most challenging mystery ever: a plot to unleash the ghost dog Cerberus upon the world. As they race to stop this dogpocalypse, the gang discovers that Scooby has an epic destiny greater than anyone imagined.</p>
+              <p class="card-text" name="test">Scooby and the gang face their most challenging mystery ever: a plot to unleash the ghost dog Cerberus upon the world. As they race to stop this dogpocalypse, the gang discovers that Scooby has an epic destiny greater than anyone imagined.("Scoob")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -488,7 +488,7 @@
               src="https://m.media-amazon.com/images/M/MV5BYjk0MTgzMmQtZmY2My00NmE5LWExNGUtYjZkNTA3ZDkyMTJiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.</p>
+              <p class="card-text">Stuck in a time loop, two wedding guests develop a budding romance while living the same day over and over again.("Palm Springs")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
@@ -515,7 +515,7 @@
               src="https://m.media-amazon.com/images/M/MV5BOTc3ZjVkYTYtMDZiMC00OTliLWE3OTEtYjY5NTBmNGJjYTBmXkEyXkFqcGdeQXVyNDExMzMxNjE@._V1_.jpg"
               data-holder-rendered="true" style="height: 440px; width: 100%; display: block;">
             <div class="card-body">
-              <p class="card-text">A quiet drifter is tricked into a janitorial job at the now condemned Willy's Wonderland. The mundane tasks suddenly become an all-out fight for survival against wave after wave of demonic animatronics. Fists fly, kicks land, titans clash -- and only one side will make it out alive.</p>
+              <p class="card-text">A quiet drifter is tricked into a janitorial job at the now condemned Willy's Wonderland. The mundane tasks suddenly become an all-out fight for survival against wave after wave of demonic animatronics. Fists fly, kicks land, titans clash -- and only one side will make it out alive.("Willys Wonderland")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
