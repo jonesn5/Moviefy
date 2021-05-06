@@ -117,11 +117,7 @@
               src="https://lumiere-a.akamaihd.net/v1/images/p_blackwidow_19075_0fd5159b.jpeg?region=0%2C0%2C540%2C810"
               data-holder-rendered="true">
             <div class="card-body">
-              <p class="card-text" name="test">In Marvel Studios’ action-packed spy thriller “Black Widow,” Natasha
-                Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties
-                to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal
-                with her history as a spy and the broken relationships left in her wake long before she became an
-                Avenger.</p>
+              <p class="card-text" name="test">At birth the Black Widow "aka Natasha Romanova" is given to the KGB, which grooms her to become its ultimate operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day New York, where she is a freelance operative. ("Black Widow")</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <!-- Link to movie -->
