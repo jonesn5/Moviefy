@@ -96,14 +96,14 @@
   
 
 <div class="wrapper">
-    <div class="box"><a href = ""><img src="Genres/Action.png"></a></div>
-    <div class="box"><a href = ""><img src="Genres/Comedy.png"></a></div>
-    <div class="box"><a href = ""><img src="Genres/Drama.png"></a></div>
-    <div class="box"><a href = ""><img src="Genres/Horror.png"></a></div>
-    <div class="box"><a href = ""><img src="Genres/Romance.png"></a></div>
-    <div class="box"><a href = ""><img src="Genres/Sci-Fi.png"></a></div>
-    <div class="box"><a href = ""><img src="Genres/Children.png"></a></div>
-    <div class="box"><a href = ""><img src="Genres/Documentary.png"></a></div>
+    <div class="box"><a href = "GenrePages/Action.php"><img src="Genres/Action.png"></a></div>
+    <div class="box"><a href = "GenrePages/Comedy.php"><img src="Genres/Comedy.png"></a></div>
+    <div class="box"><a href = "GenrePages/Drama.php"><img src="Genres/Drama.png"></a></div>
+    <div class="box"><a href = "GenrePages/Horror.php"><img src="Genres/Horror.png"></a></div>
+    <div class="box"><a href = "GenrePages/Romance.php"><img src="Genres/Romance.png"></a></div>
+    <div class="box"><a href = "GenrePages/Sci-Fi.php"><img src="Genres/Sci-Fi.png"></a></div>
+    <div class="box"><a href = "GenrePages/Children.php"><img src="Genres/Children.png"></a></div>
+    <div class="box"><a href = "GenrePages/Documentary.php"><img src="Genres/Documentary.png"></a></div>
 </div>
 
 </body>
