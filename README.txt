@@ -59,3 +59,20 @@ This tab lets you suggest movies to admins. The admins can then go accept a movi
 
 Logging out
 When you are done using Moviefy you will want to logout of the platform. In order to do that you need to hit the logout button in the top right of the screen.
+
+References/Citations
+----------------------
+“Cherry.” IMDb, IMDb.com, 12 Mar. 2021, www.imdb.com/title/tt9130508/.
+“Dolittle.” IMDb, IMDb.com, 1 Jan. 2020, www.imdb.com/title/tt6673612/.
+“Greyhound.” IMDb, IMDb.com, 10 July 2020, www.imdb.com/title/tt6048922/.
+“Mortal Kombat.” IMDb, IMDb.com, 8 Apr. 2021, www.imdb.com/title/tt0293429/?ref_=hm_inth_tt_t_2.
+“Palm Springs.” IMDb, IMDb.com, 10 July 2020, www.imdb.com/title/tt9484998/.
+“Scoob!” IMDb, IMDb.com, 15 May 2020, www.imdb.com/title/tt3152592/.
+“Soul.” IMDb, IMDb.com, 24 Dec. 2020, www.imdb.com/title/tt2948372/.
+“Stowaway.” IMDb, IMDb.com, 22 Apr. 2021, www.imdb.com/title/tt9203694/.
+“Tenet.” IMDb, IMDb.com, 26 Aug. 2020, www.imdb.com/title/tt6723592/.
+“Things Heard & Seen.” IMDb, IMDb.com, 29 Apr. 2021, www.imdb.com/title/tt10962368/.
+“Tom Clancy's Without Remorse.” IMDb, IMDb.com, 30 Apr. 2021, www.imdb.com/title/tt0499097/.
+“Us.” IMDb, IMDb.com, 20 Mar. 2019, www.imdb.com/title/tt6857112/.
+“Willy's Wonderland.” IMDb, IMDb.com, 12 Feb. 2021, www.imdb.com/title/tt8114980/.
+“Wrong Turn.” IMDb, IMDb.com, 26 Jan. 2021, www.imdb.com/title/tt9110170/. 
