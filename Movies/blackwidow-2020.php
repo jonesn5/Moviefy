@@ -48,7 +48,7 @@
         allowfullscreen></iframe>
         <p>At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate
           operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day
-          New York, where she is a freelance operative. (IMDB)<br>Genre: Action</p>
+          New York, where she is a freelance operative. ("Black Widow")<br>Genre: Action</p>
         </div>
         <div class="col-lg-1">
         </div>

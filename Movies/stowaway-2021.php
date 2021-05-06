@@ -46,7 +46,7 @@
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-        <p>The crew of a spaceship headed to Mars discovers an accidental stowaway shortly after takeoff. Too far from Earth to turn back and with resources dwindling, the ship's medical researcher emerges as the only dissenting voice against the group that has already decided in favor of a grim outcome. (IMDB)<br>Genre: Sci-Fi</p>
+        <p>The crew of a spaceship headed to Mars discovers an accidental stowaway shortly after takeoff. Too far from Earth to turn back and with resources dwindling, the ship's medical researcher emerges as the only dissenting voice against the group that has already decided in favor of a grim outcome. ("Stowaway")<br>Genre: Sci-Fi</p>
         </div>
         <div class="col-lg-1">
         </div>
