@@ -1,3 +1,7 @@
+
+
+
+
 echo Installation Process
 
 mkdir 	Moviefy
@@ -91,13 +95,45 @@ curl	-o	Sci-FiRating.php	https://raw.githubusercontent.com/jonesn5/Moviefy/main/
 curl	-o	Sci-FiRuntime.php	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Sci-FiRuntime.php
 curl	-o	Sci-FiYear.php		https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Sci-FiYear.php
 
+mkdir	Images
+cd	Images
+
+curl	-o	BlackWidow_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/BlackWidow_Poster.png
+curl	-o	AQuietPlace_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/AQuietPlace_Poster.png
+curl	-o	Cherry_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/Cherry_Poster.png
+curl	-o	Dolittle_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/Dolittle_Poster.png
+curl	-o	Greyhound_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/Greyhound_Poster.png
+curl	-o	MortalKombat_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/MortalKombat_Poster.png
+curl	-o	PalmSprings_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/PalmSprings_Poster.png
+curl	-o	Scoob_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/Scoob_Poster.png
+curl	-o	Soul_Poster.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/Soul_Poster.png
+curl	-o	Stowaway_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/Stowaway_Poster.png
+curl	-o	Tenet_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/Tenet_Poster.png
+curl	-o	ThingsHeardandSeen_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/ThingsHeardandSeen_Poster.png
+curl	-o	Us_Poster.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/Us_Poster.png
+curl	-o	WillysWonderland_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/WillysWonderland_Poster.png
+curl	-o	WithoutRemorse_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/WithoutRemorse_Poster.png
+curl	-o	WrongTurn_Poster.png	https://raw.githubusercontent.com/jonesn5/Moviefy/main/GenrePages/Images/WrongTurn_Poster.png
+
+
+cd..
+cd..
+
+mkdir	Genres
+cd	Genres
+
+curl	-o	Action.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Genres/Action.png
+curl	-o	Children.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Genres/Children.png
+curl	-o	Comedy.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Genres/Comedy.png
+curl	-o	Documentary.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Genres/Documentary.png
+curl	-o	Drama.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Genres/Drama.png
+curl	-o	Horror.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Genres/Horror.png
+curl	-o	Romance.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Genres/Romance.png
+curl	-o	Sci-Fi.png		https://raw.githubusercontent.com/jonesn5/Moviefy/main/Genres/Sci-Fi.png
+
 cd..
 
 start README.txt
 
 echo done
-
-
-
-
 
