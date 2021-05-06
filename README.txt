@@ -62,6 +62,7 @@ When you are done using Moviefy you will want to logout of the platform. In orde
 
 References/Citations
 ----------------------
+“Black Widow.” IMDb, IMDb.com, www.imdb.com/title/tt3480822/plotsummary. 
 “Cherry.” IMDb, IMDb.com, 12 Mar. 2021, www.imdb.com/title/tt9130508/.
 “Dolittle.” IMDb, IMDb.com, 1 Jan. 2020, www.imdb.com/title/tt6673612/.
 “Greyhound.” IMDb, IMDb.com, 10 July 2020, www.imdb.com/title/tt6048922/.
