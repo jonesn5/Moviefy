@@ -48,13 +48,7 @@
         allowfullscreen></iframe>
         <p>At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate
           operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day
-          New York, where she is a freelance operative. <br> Development of a Black Widow film began in April 2004 by
-          Lionsgate, with David Hayter attached to write and direct. The project did not move forward and the film
-          rights to the character reverted to Marvel Studios by June 2006. Johansson was cast in the role for several
-          MCU films beginning with Iron Man 2 (2010). Marvel and Johansson expressed interest in a solo film several
-          times over the following years, before Schaeffer and Shortland were hired in 2018. Benson and Pearson were
-          added later. Filming took place from May to October, in Norway, Budapest, Morocco, Pinewood Studios in the
-          United Kingdom, and in Atlanta and Macon, Georgia. <em> (Action)</em></p>
+          New York, where she is a freelance operative. (IMDB)<br>Genre: Action</p>
         </div>
         <div class="col-lg-1">
         </div>

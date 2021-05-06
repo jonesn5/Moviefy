@@ -35,7 +35,7 @@
     <div class="row d-flex justify-content-center">
       <div class="col-lg-6">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xOsLIiBStEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Everybody has a soul. Joe Gardner is about to find his. Watch the new trailer for Disney and Pixar’s Soul, in theaters June 19.  <em> (Family)</em></p>
+        <p>Joe is a middle-school band teacher whose life hasn't quite gone the way he expected. His true passion is jazz -- and he's good. But when he travels to another realm to help someone find their passion, he soon discovers what it means to have soul. (IMDB)<br>Genre: Family</p>
       </div>
       <div class="col-lg-1">
       </div>

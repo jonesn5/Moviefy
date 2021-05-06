@@ -35,7 +35,7 @@
     <div class="row d-flex justify-content-center">
       <div class="col-lg-6">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FEf412bSPLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Dr. John Dolittle lives in solitude behind the high walls of his lush manor in 19th-century England. His only companionship comes from an array of exotic animals that he speaks to on a daily basis. But when young Queen Victoria becomes gravely ill, the eccentric doctor and his furry friends embark on an epic adventure to a mythical island to find the cure. <em> (Family)</em></p>
+        <p>After his wife's death, Dr. John Dolittle (Robert Downey, Jr.) decided to hide from the world with his beloved animals. But he has to take a journey to a mysterious island to find a healing tree, which is the only medicine that can help the dying Queen Victoria (Jessie Buckley) in Buckingham Palace. (IMDB)<br>Genre: Family </p>
       </div>
       <div class="col-lg-1">
       </div>

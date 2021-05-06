@@ -35,7 +35,7 @@
     <div class="row d-flex justify-content-center">
       <div class="col-lg-6">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/eyzxu26-Wqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>In a thrilling story inspired by actual events from the Battle of the Atlantic, Tom Hanks stars as a first-time captain who leads a convoy of allied ships carrying thousands of soldiers across the treacherous waters of the “Black Pit” to the front lines of WW2. With no air cover protection for 5 days, the captain and his convoy must battle the surrounding enemy Nazi U-boats in order to give the allies a chance to win the war. The film is directed by Aaron Schneider from a screenplay by Hanks. <em> (Drama)</em></p>
+        <p>Based upon the novel "The Good Shepherd" by C S Forester, this is the thrilling story of an Allied convoy crossing the North Atlantic in 1942 as it faces relentless attack by a German submarine wolf pack. The leader of the convoy's destroyer screen is a US Navy commander making his first Atlantic crossing. The story focuses on the his command responsibility as he fights the cold, the relentless night, the brutal sea, and his deep fatigue as he chases down the attacking submarines in the deadly game of cat and mouse. The exciting story, a thrilling ride-along with the beleaguered captain, so deeply portrays the elements of battle command that for a long period of time the book was used as a text at the US Naval Academy. (IMDB)<br>Genre: Drama</p>
       </div>
       <div class="col-lg-1">
       </div>

@@ -35,7 +35,7 @@
     <div class="row d-flex justify-content-center">
       <div class="col-lg-6">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/P9mSVDm1GeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Check out the brand new trailer for Scoob! as Scooby Doo and the gang return to hunt down Hanna Barbera villain, Dick Dastardly.<em> (Family)</em></p>
+        <p>Scooby-Doo is the hero of his own story in "SCOOB!," the first full-length animated Scooby-Doo adventure, which reveals how he and his best friend Shaggy became two of the world's most beloved crime busters. The story takes us back to where it all began when a young Scooby and Shaggy first meet and team up with Velma, Daphne, and Fred to launch Mystery Incorporated. (IMDB)<br>Genre: Family</em></p>
       </div>
       <div class="col-lg-1">
       </div>

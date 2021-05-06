@@ -35,7 +35,7 @@
     <div class="row d-flex justify-content-center">
       <div class="col-lg-6">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/H5bH6O0bErk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>In an epic odyssey of romance, war, drug addiction, and crime, a young man (Tom Holland) struggles to find his place in the world. <em> (Romance)</em></p>
+        <p>Cherry drifts from college dropout to army medic in Iraq - anchored only by his true love, Emily. But after returning from the war with PTSD, his life spirals into drugs and crime as he struggles to find his place in the world. (IMDB)<br>Genre: Romance</p>
       </div>
       <div class="col-lg-1">
       </div>

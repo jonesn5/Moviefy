@@ -45,14 +45,7 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-                <p>Us is a 2019 American horror film written and directed by Jordan Peele, starring Lupita Nyong'o,
-                    Winston Duke, Elisabeth Moss, and Tim Heidecker. The film follows Adelaide Wilson (Nyong'o) and her
-                    family, who are attacked by a group of menacing doppelgängers.
-
-                    The project was announced in February 2018, and much of the cast joined in the following months.
-                    Peele produced the film alongside Jason Blum and Sean McKittrick (the trio previously having
-                    collaborated on Get Out and BlacKkKlansman), as well as Ian Cooper. Filming took place from July to
-                    October 2018 in California, mostly in Los Angeles, Pasadena and Santa Cruz. <em>(Horror)</em></p>
+                <p>In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California with the plan of spending time with their friends, the Tyler family. On a day at the beach, their young son Jason almost wanders off, causing his mother Adelaide to become protective of her family. That night, four mysterious people break into Adelaide's childhood home where they're staying. The family is shocked to find out that the intruders look like them, only with grotesque appearances. (IMDB)<br>Genre: Horror</p>
                 </div>
                 <div class="col-lg-1">
                 </div>

@@ -35,7 +35,7 @@
     <div class="row d-flex justify-content-center">
       <div class="col-lg-6">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jO9lc3wzifY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>Check out the official Willy's Wonderland Trailer starring Nicolas Cage! Let us know what you think in the comments below.<em> (Horror)</em></p>
+        <p>A quiet loner (Nic Cage) finds himself stranded in a remote town when his car breaks down. Unable to pay for the repairs he needs, he agrees to spend the night cleaning Willy's Wonderland, an abandoned family fun center. But this wonderland has a dark secret that the "The Janitor" is about to discover. He soon finds himself trapped inside Willy's and locked in an epic battle with the possessed animatronic mascots that roam the halls. To survive, he must fight his way through each of them. (IMDB)<br>Genre: Horror</p>
       </div>
       <div class="col-lg-1">
       </div>

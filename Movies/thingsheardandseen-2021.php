@@ -35,7 +35,7 @@
     <div class="row d-flex justify-content-center">
       <div class="col-lg-6">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/HCAaonjgDEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p>A Manhattan couple moves to a historic hamlet in the Hudson Valley and come to discover that their marriage has a sinister darkness, one that rivals their new home’s history.  Based on the acclaimed novel by Elizabeth Brundage. <em> (Drama)</em></p>
+        <p>A Manhattan artist relocates her young family to a historic hamlet in the Hudson Valley. As she settles into a new life, she begins to suspect that her marriage has a sinister darkness, one that rivals her new home's history. Based on the acclaimed novel by Elizabeth Brundange. (IMDB)<br>Genre: Drama</p>
       </div>
       <div class="col-lg-1">
       </div>
