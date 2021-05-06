@@ -8,6 +8,10 @@ $errors = array();
 
 /*
   This databse changes if not locally hosted 
+  https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
+  Referenced for: User login and Registration 
+  https://php.net
+  Used for php funciton refernces 
 */
 // connect to the database
 $db = mysqli_connect('localhost', 'root', '', 'database1'); //"database1" is the name of my local database 
@@ -48,6 +52,8 @@ if (isset($_POST['newUser'])) {
   // If no errors register the user
   if (count($errors) == 0) {
     //Using md5 password hashing (Not a strong encryption)
+    //Used website to help
+    //https://www.w3schools.com/php/func_string_md5.asp 
   	$password = md5($password1);
   	$query = "INSERT INTO users (username, email, password) 
   			  VALUES('$username', '$email', '$password')";
